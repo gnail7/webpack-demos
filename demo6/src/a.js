@@ -1,0 +1,1 @@
+export default a = 'this info from a.js'

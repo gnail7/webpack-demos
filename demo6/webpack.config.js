@@ -1,7 +1,7 @@
 const path = require('path')
 module.exports = {
     entry:{
-        main1:'./src/main.jsx',
+        main1:'./src/main.js',
     },
     mode:'development',
     output:{
@@ -11,16 +11,11 @@ module.exports = {
     module:{
         rules:[
             {
-                test:/\.jsx?$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {
-                      presets: ['es2015', 'react']
-                    }
-                  }
+                test:/\.css$/i,
+                use:['style-loader','css-loader',]     
             }
         ]  
     }
+    
 
 }
