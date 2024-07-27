@@ -1,4 +1,4 @@
-# Webpack-practice-demos studed from ruanyf 
+# Webpack-practice-demos studed from ruanyf sensei
 
 
 ## Webpack Common command
